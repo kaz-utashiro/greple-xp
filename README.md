@@ -1,22 +1,33 @@
 # NAME
 
-App::Greple::xp - It's new $module
+App::Greple::xp - Greple module: extended patterns
+
+# VERSION
+
+Version 0.01
 
 # SYNOPSIS
 
-    use App::Greple::xp;
+greple -Mxp
 
 # DESCRIPTION
 
-App::Greple::xp is ...
+This module provides functions can be used by **greple** pattern and
+regions options.
 
-# LICENSE
+# SEE ALSO
 
-Copyright (C) Kaz Utashiro.
+[https://github.com/kaz-utashiro/greple](https://github.com/kaz-utashiro/greple)
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+[https://github.com/kaz-utashiro/greple-xp](https://github.com/kaz-utashiro/greple-xp)
 
 # AUTHOR
 
-Kaz Utashiro <kaz@utashiro.com>
+Kazumasa Utashiro
+
+# LICENSE
+
+Copyright (C) 2019 Kazumasa Utashiro.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
