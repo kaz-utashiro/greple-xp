@@ -1,16 +1,16 @@
 {
-   "abstract" : "Greple module: extended patterns",
+   "abstract" : "extended pattern module",
    "author" : [
       "Kazumasa Utashiro"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.1.6, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Minilla/v3.1.11, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "App-Greple-xp",
    "no_index" : {
@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "App::Greple" : "8.42",
             "perl" : "v5.14.0"
          }
       },
@@ -55,7 +56,8 @@
    "version" : "0.01",
    "x_authority" : "cpan:UTASHIRO",
    "x_contributors" : [
-      "Kaz Utashiro <kaz@utashiro.com>"
+      "Kazumasa Utashiro <kaz@utashiro.com>"
    ],
+   "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
 }
