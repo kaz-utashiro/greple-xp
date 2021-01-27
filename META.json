@@ -53,6 +53,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kaz-utashiro/greple-xp/issues"
+      },
+      "homepage" : "https://github.com/kaz-utashiro/greple-xp",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kaz-utashiro/greple-xp.git",
+         "web" : "https://github.com/kaz-utashiro/greple-xp"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:UTASHIRO",
    "x_contributors" : [

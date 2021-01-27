@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.com/kaz-utashiro/greple-xp.svg?branch=master)](https://travis-ci.com/kaz-utashiro/greple-xp)
 # NAME
 
 App::Greple::xp - extended pattern module
