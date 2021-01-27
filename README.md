@@ -5,7 +5,7 @@ App::Greple::xp - extended pattern module
 
 # VERSION
 
-Version 0.01
+Version 0.02
 
 # SYNOPSIS
 
@@ -18,11 +18,11 @@ region options.
 
 # OPTIONS
 
-- **--le-file** _file_
-- **--inside-file** _file_
-- **--outside-file** _file_
-- **--include-file** _file_
-- **--exclude-file** _file_
+- **--le-pattern** _file_
+- **--inside-pattern** _file_
+- **--outside-pattern** _file_
+- **--include-pattern** _file_
+- **--exclude-pattern** _file_
 
     Read file contents and use each lines as a pattern for options.
 
@@ -33,7 +33,16 @@ region options.
     Because file name is globbed, you can use wild card to give multiple
     files.
 
-        $ greple -Mxp --exclude-file '*.exclude' ...
+        $ greple -Mxp --exclude-pattern '*.exclude' ...
+
+- **--le-string** _file_
+- **--inside-string** _file_
+- **--outside-string** _file_
+- **--include-string** _file_
+- **--exclude-string** _file_
+
+    Almost same as **\*-pattern** option but each line is concidered as a
+    fixed string rather than regular expression.
 
 # SEE ALSO
 
