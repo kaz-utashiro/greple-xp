@@ -17,7 +17,7 @@ my $greple_path = sub {
     use App::Greple;
     my $install =
 	($INC{"App/Greple.pm"} =~ m{(^.*) /lib (?:/[^/]+){0,2} /App/Greple\.pm$}x)[0]
-	    or die;
+	    or die $INC{"App/Greple.pm"};
     for my $dir (qw(bin script)) {
 	my $file = "$install/$dir/greple";
 	return $file if -f $file;
