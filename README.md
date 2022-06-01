@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/kaz-utashiro/greple-xp.svg?branch=master)](https://travis-ci.com/kaz-utashiro/greple-xp)
+[![Actions Status](https://github.com/kaz-utashiro/greple-xp/workflows/test/badge.svg)](https://github.com/kaz-utashiro/greple-xp/actions) [![MetaCPAN Release](https://badge.fury.io/pl/App-Greple-xp.svg)](https://metacpan.org/release/App-Greple-xp)
 # NAME
 
 App::Greple::xp - extended pattern module
