@@ -37,6 +37,9 @@ and region options.
 
 ## COMMENT
 
+You can insert comment lines in pattern file.  As for fixed string
+file, there is no way to write comment.
+
 Lines start with hash mark (`#`) is ignored as a comment line.
 
 String after double slash (`//`) is also ignored with preceding

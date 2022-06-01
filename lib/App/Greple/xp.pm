@@ -48,6 +48,9 @@ fixed string rather than regular expression.
 
 =head2 COMMENT
 
+You can insert comment lines in pattern file.  As for fixed string
+file, there is no way to write comment.
+
 Lines start with hash mark (C<#>) is ignored as a comment line.
 
 String after double slash (C<//>) is also ignored with preceding
