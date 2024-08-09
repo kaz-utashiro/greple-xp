@@ -43,7 +43,7 @@
       "runtime" : {
          "requires" : {
             "App::Greple" : "8.42",
-            "perl" : "v5.14.0"
+            "perl" : "v5.18.2"
          }
       },
       "test" : {
