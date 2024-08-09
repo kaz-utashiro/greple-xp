@@ -4,7 +4,7 @@
       "Kazumasa Utashiro"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.1.12, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Minilla/v3.1.23, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -43,7 +43,7 @@
       "runtime" : {
          "requires" : {
             "App::Greple" : "8.42",
-            "perl" : "v5.14.0"
+            "perl" : "v5.18.2"
          }
       },
       "test" : {
@@ -60,7 +60,7 @@
       "homepage" : "https://github.com/kaz-utashiro/greple-xp",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/kaz-utashiro/greple-xp.git",
+         "url" : "https://github.com/kaz-utashiro/greple-xp.git",
          "web" : "https://github.com/kaz-utashiro/greple-xp"
       }
    },
@@ -69,6 +69,6 @@
    "x_contributors" : [
       "Kazumasa Utashiro <kaz@utashiro.com>"
    ],
-   "x_serialization_backend" : "JSON::PP version 4.07",
+   "x_serialization_backend" : "JSON::PP version 4.12",
    "x_static_install" : 1
 }
