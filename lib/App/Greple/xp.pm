@@ -116,7 +116,7 @@ sub xp_pattern_file {
     for my $file (@files) {
 	open my $fh, $file or die "$file: $!";
 	while (my $p = <$fh>) {
-	    chomp $p;
+	    $p =~ s/\R\z//;
 	    if ($opt{hash_comment} and !$opt{fixed}) {
 		next if $p =~ /^\s*#/;
 	    }
