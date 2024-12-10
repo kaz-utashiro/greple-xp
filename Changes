@@ -2,6 +2,10 @@ Revision history for Perl extension App-Greple-xp
 
 {{$NEXT}}
 
+1.00 2024-12-10T11:44:16Z
+
+    - use s/\R\z// to remove linebreaks
+
 0.04 2021-02-15T07:47:53Z
 
     - Update document.
