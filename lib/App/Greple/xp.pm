@@ -141,16 +141,6 @@ sub xp_pattern_file {
     merge_regions @r;
 }
 
-sub block_match {
-    my $grep = shift;
-    $grep->{RESULT} = [
-	[ [ 0, length ],
-	  map {
-	      [ $_->[0][0], $_->[0][1], 0, $grep->{callback}->[0] ]
-	  } $grep->result
-      ] ];
-}
-
 1;
 
 __DATA__
@@ -166,5 +156,3 @@ option  --inside-string  --inside &xp_pattern_file(fixed,file="$<shift>")
 option --outside-string --outside &xp_pattern_file(fixed,file="$<shift>")
 option --include-string --include &xp_pattern_file(fixed,file="$<shift>")
 option --exclude-string --exclude &xp_pattern_file(fixed,file="$<shift>")
-
-option --block-match    --postgrep &__PACKAGE__::block_match
