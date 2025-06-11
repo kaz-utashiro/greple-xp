@@ -4,7 +4,7 @@ App::Greple::xp - extended pattern module
 
 =head1 VERSION
 
-Version 1.00
+Version 1.01
 
 =head1 SYNOPSIS
 
@@ -100,7 +100,7 @@ use v5.14;
 use strict;
 use warnings;
 
-our $VERSION = "1.00";
+our $VERSION = "1.01";
 
 use Exporter 'import';
 our @EXPORT = qw(&xp_pattern_file);

@@ -5,7 +5,7 @@ App::Greple::xp - extended pattern module
 
 # VERSION
 
-Version 1.00
+Version 1.01
 
 # SYNOPSIS
 

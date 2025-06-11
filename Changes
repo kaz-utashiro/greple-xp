@@ -2,6 +2,10 @@ Revision history for Perl extension App-Greple-xp
 
 {{$NEXT}}
 
+1.01 2025-06-11T06:10:54Z
+
+    - accept multi-line regex in the pattern file
+
 1.00 2024-12-10T11:44:16Z
 
     - use s/\R\z// to remove linebreaks
